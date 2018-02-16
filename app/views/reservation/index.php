@@ -1,0 +1,1 @@
+Teste MVC <?=$id?>
