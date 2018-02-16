@@ -21,7 +21,7 @@ abstract class Model
       $pdo = $this->connection->pdo();
       $query = $pdo->prepare("SELECT * FROM {$this->tableName()}");
       $query->execute();
-      return $query->fetch($pdo::FETCH_OBJ);
+      return $query->fetchAll($pdo::FETCH_OBJ);
     }
 
 }
