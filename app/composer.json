@@ -1,0 +1,20 @@
+{
+    "name": "root/app",
+    "description": "Teste para SAE Digital",
+    "type": "project",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Guilherme Trevisan",
+            "email": "havennow@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "base\\" : ["./lib", "./controllers", "./models"]
+        },
+        "files": [
+            "./init.php"
+        ]
+    }
+}
